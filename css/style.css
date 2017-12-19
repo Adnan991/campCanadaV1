@@ -1,0 +1,481 @@
+/*Home page.css*/
+body{
+  background-color: #e3e6ea;
+  margin: 0;
+}
+.img-container{
+    background-image: url(../Images/canada%20mountain%20banner.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 120px;
+    height: 80px;
+    margin: 0 auto;\
+}
+
+.apply-now-btn{
+
+   float: right;
+     width:170px;
+    height: 50px;
+}
+.message-btn{
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+.nav {
+  font-family: serif;
+  overflow: auto;
+  background:#ffc6c6;
+  text-align: center;
+}
+
+li{
+  display:inline;
+  }
+
+a{
+  text-decoration: none;
+  color: #f44242;
+}
+
+a:hover{
+  color: #4a41f4;
+}
+
+.main{
+  text-align: center;
+  padding: 90px;
+  font-size: 20pt;
+  color:#f44141;
+  font-family: sans-serif;
+    margin-top: 0 auto;
+}
+.welcome-text{
+  color: red;
+  font-family: sans-serif;
+  font-size: 25pt;
+}
+.facebooklogo {
+  height: 50px;
+  size: 80px
+  align:left;
+}
+.twitterlogo{
+  height: 50px;
+  size: 80px
+  align:left;
+}
+.youtubelogo{
+  height: 50px;
+  size: 80px
+  align:left;
+}
+.phonenumber{
+  font-size: 20pt;
+     color:black;
+}
+.email{
+  font-size: 20pt;
+    color:black;
+}
+.register your {
+  font-size: 80pt;
+}
+.follow-canada{
+    font-size: 18pt;
+    float: left;
+}
+
+/*Home page footer*/
+
+#footer{
+  width: 100%;
+  height:200px;
+  background-color:#ffc6c6;
+  text-align: center;
+}
+.facebook-logo{
+  height: 50px;
+  size: 100px;
+  align:left;
+}
+.youtube-logo{
+  height: 50px;
+  size: 80px
+  align:left;
+}
+.twitter-logo{
+  height: 50px;
+  size: 80px;
+  align:left;
+}
+.phonenumber{
+  font-size: 20px;
+  text-align: right;
+  color:black;
+  font-weight: bold;
+  margin-top: 30PX;
+}
+.email{
+  font-size: 20px;
+  text-align: right;
+  color:black;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.register-btn{
+  width: 190px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #FF0000;
+  color:#FFFFFF;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 10pt;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.column-1, .column-2, .column-3{
+    float: left;
+    padding: 10px;
+}
+.column-1{
+    width: 35%;
+
+}
+.column-2{
+    width: 35%;
+}
+.column-3{
+    width: 25%
+}
+.follwo-canada{
+    font-family: sans-serif
+}
+/*About page.css*/
+p{
+  color:#ff0505;
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+.about-text{
+text-align:center;
+width: 300px;
+height: 40px;
+color: red;
+border: 1px solid #ffffff;
+border width: 300px;
+font-family: sans-serif;
+margin-left: 650px;
+}
+.about-img{
+height: 200px;
+  width: 777px;
+  margin-left: 300px;
+}
+.ABOUT-TEXT{
+  font-size: 18pt;
+  font-family:sans-serif;
+}
+.about-footer{
+  width: 100%;
+  height:100px;
+  background-color:#ffc6c6;
+}
+/*Travel page.css*/
+.video{
+  align:center;
+  margin:30px auto;
+  border: 5px solid #ffffff;
+  border-radius: 15px;
+    width: 550px;
+}
+.travel{
+  margin-left:200px;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  width:560px;
+  height:315px;
+  margin-bottom: 30px;
+}
+
+  /*apply and login*/
+
+  .apply-text{
+    text-align: center;
+    color:#ff0000;
+    font-family: sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+  }
+  .apply-text2{
+    text-align: left;
+    color: #ff0000;
+    font-family: sans-serif;
+    font-size: 18pt;
+  }
+  .apply-text3{
+    text-align: left;
+    color: #ff0000;
+    font-family: sans-serif;
+    font-size: 18pt;
+  }
+  .app-fee{
+    color: #000000;
+    font-size: 15pt;
+    margin-left: 20px;
+  }
+  .apply-que2{
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 20px;
+  }
+  .apply-que{
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 20px;
+  }
+  #applyform input{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin: 5px 0;
+    border: 1px solid #999;
+    border-radius: 6px;
+    direction: ltr;
+    padding: 2px 20px;
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+  }
+  .apply-name{
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .apply-email{
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .apply-contact{
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  #applyform input[name="First Name"]{
+    width: 220px;
+    margin-left: 10px;
+    font-family: sans-serif;
+  }
+  #applyform input[name="email"]{
+    width: 440px;
+    margin-left: 10px;
+  }
+  #applyform input[name="password"]{
+    margin-left: 10px;
+  }
+  #applyform input[name="contact number"]{
+    margin-left: 10px;
+  }
+  #applyform input[name="Last Name"]{
+    margin-left: 10px;
+
+  }
+
+  #applyform input[name="chose"]{
+    margin-right: 50px;
+    text-align: center;
+  }
+  .apply-lasttext{
+    color:#ff0000;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 18pt;
+    font-weight: bold;
+  }
+  .submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FF0000;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 10pt;
+    cursor: pointer;
+    transition: 0.1s;
+    float: right;
+    margin-bottom:30px;
+    margin-right: 60px;
+
+  }
+  #applyform{
+      border: 4px solid white;
+      border-radius: 3px;
+      width: 750px;
+      background-color: #f77979;
+      margin-left: 100px;
+
+  }
+  .password{
+    font-size: 15pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  /*Feedback page*/
+  .feedback-text{
+    color:#ff0000;
+    font-family: sans-serif;
+  }
+
+  .feedback-box{
+    border-radius: 7px;
+    margin-left: 30px;
+    width: 80%;
+    height: 200px;
+
+  }
+  .feedback-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #FF0000;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 10pt;
+    cursor: pointer;
+    transition: 0.1s;
+    float: right;
+    margin-right: 70px;
+
+  }
+  .feedback-text2{
+    font-family: sans-serif;
+    color: #ff0000;
+  }
+  .rate-img{
+    margin-left: 240px;
+  }
+
+  /*PROGRAM*/
+  .program-body{
+    background-color: #e3e6ea;
+  }
+  #text-1 , #text-2 ,#text-3 ,#text-4 {
+      font-size: 15pt;
+      text-align: left;
+
+  }
+  .program-footer{
+    width: 100%;
+    height:80px;
+    background-color:#ffc6c6;
+    text-align: center;
+    font-size: 7pt;
+    margin-top: 20px;
+  }
+  .program-text{
+    color: #ff0000;
+    font-family: sans-serif;
+  }
+  .btn-big , .btn-small{
+      background-color:#f9d5d1;
+      height: 40px;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 10pt;
+      cursor: pointer;
+      transition: 0.1s;
+      border-radius: 8px;
+      border: none;
+      text-align: center;
+      padding: 15px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+  }
+
+  /*Blog page*/
+  .column{
+  font-family: sans-serif;
+  border: 3px solid #FF0000;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+  height:380px;
+  float: left;
+  padding:30px;
+  margin-left: 150px;
+  }
+  .blog1-img{
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+  }
+
+
+  .blog2-img{
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+
+  }
+
+  .blog3-img{
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+  }
+  /* contact page*/
+  .address{
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .number{
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: bold;
+        padding: 20px;
+  }
+  .contact{
+    text-align: center;
+    font-family: sans-serif;
+        padding: 20px;
+  }
+  .contact-img{
+   width: 70px;
+   height: 50;
+       padding: 20px;
+  }
